@@ -83,7 +83,8 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-
+   console.log("");
+   
     const response = await fetch('https://chatgptcodex-4d44.onrender.com/', {
         method: 'POST',
         headers: {
